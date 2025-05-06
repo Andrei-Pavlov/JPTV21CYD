@@ -101,4 +101,8 @@ Backend (Серверная часть):<br/>
 База Данных:<br/>
 ![{76351BC6-B0F0-4283-997E-47B7B11C7842}](https://github.com/user-attachments/assets/31d5fb31-e820-4579-baea-c062f8eeedc8)
 
+Swagger:<br/>
+![{D9B06AB6-7F05-488A-BCAB-01FC88F288C9}](https://github.com/user-attachments/assets/bba78878-bb93-4516-9212-94e406fdd825)
+
+
 
