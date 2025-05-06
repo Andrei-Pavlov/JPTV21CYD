@@ -75,12 +75,12 @@
 Frontend (Клиентская часть):<br/>
 1. React.js в качестве основного фреймворка<br/>
 2. Основные библиотеки:<br/>
-  1.1 React Router DOM для маршрутизации<br/>
-  1.2 React Bootstrap для UI компонентов<br/>
-  1.3 Axios для HTTP-запросов<br/>
-  1.4 JWT-decode для работы с токенами<br/>
-  1.5 React Google Maps API для работы с картами<br/>
-  1.6 JS-Cookie для работы с куками<br/>
+   2.1 React Router DOM для маршрутизации<br/>
+   2.2 React Bootstrap для UI компонентов<br/>
+   2.3 Axios для HTTP-запросов<br/>
+   2.4 JWT-decode для работы с токенами<br/>
+   2.5 React Google Maps API для работы с картами<br/>
+   2.6 JS-Cookie для работы с куками<br/>
 Backend (Серверная часть):<br/>
 1. Node.js в качестве платформы<br/>
 2. Express.js как веб-фреймворк<br/>
