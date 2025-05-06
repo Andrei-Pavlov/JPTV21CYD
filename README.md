@@ -4,6 +4,14 @@
 # Инструкция по установке и запуску
 
 Инструкция для сайта:
+1.Скачать проект через Github
+2.Скачать XAMPP и запустить Apache & MySQL
+3. В MySQL создать базу данных с названием CYD
+4. После создания перейти в Visual Studio Code
+5. В Visual Studio Code открыть папку CYD
+6.В Visual Studio Code открыть два терминала
+7. В первом терминале прописать данные команды - npm install, cd backend, npm run dev
+8. Во втором терминале прописать данные команды - npm install, cd frontend, npm start index.js
 
 Инструкция для игры:
 1. Скачать RenPy - https://www.renpy.org/
