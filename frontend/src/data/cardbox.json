@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "name": "Где мы находимся?",
+        "description": "Kutse tänav 13, 41533",
+        "img" : "https://lh3.googleusercontent.com/p/AF1QipMG_EEoRcp9teo6O9bEGjoU2WtpQGbkBcmA1xuG=s1360-w1360-h1020"
+    },
+    {
+        "id":2,
+        "name": "Наш номер телефона",
+        "description": "Если у вас какие- то вопросы,вы смело можете позвонить нам и мы поможем вам,наш номер телефона : +372 5887 7765",
+        "img" : "https://lh3.googleusercontent.com/p/AF1QipOZmVjYK_kEAgWCePH07nn_bmRDMpYISR7NJMf1=s1360-w1360-h1020"
+    },
+    {
+        "id":3,
+        "name": "Часы работы приемной комиссии",
+        "description": "Часы работы: E-R Kell 09:00-16:00",
+        "img" : "https://lh3.googleusercontent.com/p/AF1QipO1K7h897Dm8A8FA1HE9Eb8afLYW0hQ9VD432nW=s1360-w1360-h1020"
+    }
+]
+

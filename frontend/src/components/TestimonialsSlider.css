@@ -1,0 +1,38 @@
+.testimonials-slider {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .testimonial-image {
+    border-radius: 50%;
+    width: 175px;
+    height: 125px;
+  }
+  
+  .testimonial-text {
+    font-size: 1.2em;
+    margin: 20px 50px;
+  }
+  
+  .testimonial-name {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .testimonial-content {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+  }
+  .testimonials-heading {
+    margin-top: 50px;
+    text-align: center;
+    color: #63B69D;
+  }
+  
+  
+  

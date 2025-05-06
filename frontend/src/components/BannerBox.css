@@ -1,0 +1,63 @@
+.banner-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.title-regular {
+  color: #000000;
+  font-weight: 500;
+}
+
+.title-bold {
+  color: #000000;
+  font-weight: 700;
+}
+
+.banner-text-container {
+  margin-top: 40px;
+}
+
+.left-column,
+.right-column {
+  padding: 0 30px;
+}
+
+.left-column p,
+.right-column p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+@media (max-width: 768px) {
+  .banner-section {
+    padding: 40px 0;
+  }
+
+  .banner-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .left-column,
+  .right-column {
+    padding: 0 15px;
+  }
+
+  .banner-text-container {
+    margin-top: 20px;
+  }
+} 

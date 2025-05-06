@@ -1,0 +1,476 @@
+.profile-container {
+  padding: 20px;
+}
+
+.profile-card,
+.info-card,
+.security-card,
+.quote-card,
+.screenshot-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo-container {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #2CC295;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.edit-profile-btn {
+  margin-top: 15px;
+  border-color: #2CC295;
+  color: #2CC295;
+}
+
+.edit-profile-btn:hover {
+  background-color: #2CC295;
+  border-color: #2CC295;
+}
+
+.quote-card {
+  background-color: #f8f9fa;
+}
+
+.quote-text {
+  font-style: italic;
+  color: #666;
+  margin: 10px 0;
+}
+
+.quote-author {
+  text-align: right;
+  color: #888;
+  font-size: 0.9em;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  margin: 0;
+  padding: 8px 0;
+  display: flex;
+  font-size: 14px;
+  color: #000;
+}
+
+.user-info strong {
+  display: inline-block;
+  width: 140px;
+  font-weight: normal;
+}
+
+.about-me {
+  margin-top: 30px;
+}
+
+.about-me h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.about-me p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.about-me ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.about-me li {
+  margin-bottom: 0.5rem;
+  color: #666;
+  font-style: italic;
+}
+
+.gaming-philosophy {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.gaming-philosophy p {
+  font-size: 14px;
+  color: #000;
+  margin: 8px 0;
+}
+
+.activity-stats {
+  margin-top: 30px;
+  background-color: #F8F9FA;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.activity-stats h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.activity-stats ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-stats li {
+  font-size: 14px;
+  color: #000;
+  margin: 8px 0;
+  padding-left: 8px;
+  position: relative;
+}
+
+.activity-stats li::before {
+  content: "•";
+  position: absolute;
+  left: -8px;
+  color: #000;
+}
+
+.activity-stats p.text-muted {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6C757D !important;
+}
+
+.security-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.security-card h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.security-status {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.security-status .alert {
+  background-color: #FFF9E6;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  padding: 12px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.security-status .alert.alert-warning {
+  background-color: #FFF9E6;
+}
+
+.security-status .alert.alert-success {
+  background-color: #E8F5E9;
+}
+
+.security-info-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.security-info-details p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+  gap: 8px;
+}
+
+.security-info-details strong {
+  font-weight: normal;
+}
+
+.change-password-btn {
+  padding: 0;
+  text-decoration: none;
+  color: #2CC295;
+  font-size: 14px;
+  margin-left: auto !important;
+}
+
+.change-password-btn:hover {
+  color: #229e77;
+  text-decoration: underline;
+}
+
+.text-danger {
+  color: #DC3545 !important;
+}
+
+.security-status p:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.security-status p span {
+  color: #000;
+}
+
+.security-status p span.text-danger {
+  color: #DC3545 !important;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.security-info p {
+  margin: 10px 0;
+}
+
+.security-info .text-danger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #dc3545;
+}
+
+.screenshot-card {
+  background-color: #f8f9fa;
+}
+
+.screenshot-placeholder {
+  width: 100%;
+  height: 150px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #adb5bd;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8d7da;
+}
+
+.success-message {
+  color: #28a745;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d4edda;
+}
+
+/* Стили для модального окна */
+.modal-content {
+  border-radius: 8px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 1.5rem;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+.modal-title {
+  color: #333;
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #444;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .profile-photo-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .security-card {
+    padding: 15px;
+  }
+
+  .security-info-details p {
+    flex-wrap: wrap;
+  }
+
+  .change-password-btn {
+    margin-left: 0 !important;
+    width: 100%;
+    text-align: left;
+  }
+
+  .info-card {
+    padding: 15px;
+  }
+
+  .user-info strong {
+    width: 120px;
+  }
+
+  .activity-stats {
+    padding: 15px;
+  }
+}
+
+.info-card,
+.activity-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.info-card {
+  margin-bottom: 20px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  margin: 0;
+  padding: 8px 0;
+  display: flex;
+  font-size: 14px;
+  color: #000;
+}
+
+.user-info strong {
+  display: inline-block;
+  width: 140px;
+  font-weight: normal;
+}
+
+.about-me {
+  margin-top: 30px;
+}
+
+.about-me h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.about-me p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.gaming-philosophy {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.gaming-philosophy p {
+  font-size: 14px;
+  color: #000;
+  margin: 8px 0;
+}
+
+.activity-card {
+  background-color: #F8F9FA;
+}
+
+.activity-card h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.activity-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-card li {
+  font-size: 14px;
+  color: #000;
+  margin: 8px 0;
+  padding-left: 8px;
+  position: relative;
+}
+
+.activity-card li::before {
+  content: "•";
+  position: absolute;
+  left: -8px;
+  color: #000;
+}
+
+.activity-card p.text-muted {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6C757D !important;
+}
+
+@media (max-width: 768px) {
+  .info-card,
+  .activity-card {
+    padding: 15px;
+  }
+
+  .user-info strong {
+    width: 120px;
+  }
+} 
